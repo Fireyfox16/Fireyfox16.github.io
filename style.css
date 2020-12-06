@@ -3,7 +3,8 @@ body {
   padding: 0px;
   margin: 0px  ;
 }
-#content {
+
+#index-content {
   background-color: #BFFBFF;
   width: 76%;
   margin-top: 15px;
@@ -15,9 +16,69 @@ body {
   padding-top: 1%;
   padding-bottom: 1%;
 }
-#baan-content h2 {
+
+#baan-content{
+  background-color: #BFFBFF;
+  width: 76%;
+  margin-top: 15px;
+  height: auto;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#baan-content h1 {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+#baan-content p {
+  position: relative;
+}
+#baan-content img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#algemeen-content {
+  background-color: #BFFBFF;
+  width: 76%;
+  margin-top: 15px;
+  height: auto;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#algemeen-content img {
+  float: right;
+  clear: right;
+}
+
+footer {
+  background-color: #6ab446;
+  height: 5%;
+  width: 100%;
+  text-align: center;
+}
+#top-button {
+  bottom: 10px;
+  max-width: 30px;
+  width: 100%;
+  font-size: 16px;
+  background-color: rgb(106, 180, 70);
+  padding: .5px;
+  border-radius: 4px;
+  color: black;
+  text-decoration: none;
+}
+#top-button:hover {
+  text-decoration: none;
+  color: rgb();
 }
 
 /*--- navigation bar ---*/
