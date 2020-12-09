@@ -1,9 +1,12 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 body {
   padding: 0px;
-  margin: 0px  ;
+  margin: 0px;
 }
-
+body index {
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #index-content {
   background-color: #BFFBFF;
   width: 76%;
@@ -21,6 +24,7 @@ body {
   background-color: #BFFBFF;
   width: 76%;
   margin-top: 15px;
+  margin-bottom: 15px;
   height: auto;
   margin-left: 12%;
   margin-right: 12%;
@@ -65,6 +69,11 @@ footer {
   width: 100%;
   text-align: center;
 }
+footer p {
+  font-size: xx-small;
+  margin-bottom: .2px;
+}
+
 #top-button {
   bottom: 10px;
   max-width: 30px;
@@ -75,10 +84,12 @@ footer {
   border-radius: 4px;
   color: black;
   text-decoration: none;
+  text-align: cetner
+
 }
 #top-button:hover {
   text-decoration: none;
-  color: rgb();
+  color: inherit;
 }
 
 /*--- navigation bar ---*/
