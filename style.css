@@ -2,12 +2,13 @@ body {
   padding: 0px;
   margin: 0px;
 }
-body index {
+#index {
   background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #index-content {
+
   background-color: #BFFBFF;
   width: 76%;
   margin-top: 15px;
