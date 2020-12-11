@@ -6,10 +6,11 @@ body {
   background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  :
 }
 #index-content {
-
   background-color: #BFFBFF;
+  min-height: 50%;
   width: 76%;
   margin-top: 15px;
   height: auto;
@@ -19,7 +20,15 @@ body {
   padding-right: 2%;
   padding-top: 1%;
   padding-bottom: 1%;
+  float: right;
 }
+#index-content p {
+
+}
+#index-content img {
+  float: left;
+}
+
 
 #baan-content{
   background-color: #BFFBFF;
@@ -69,6 +78,7 @@ footer {
   height: 5%;
   width: 100%;
   text-align: center;
+  clear: both;
 }
 footer p {
   font-size: xx-small;
