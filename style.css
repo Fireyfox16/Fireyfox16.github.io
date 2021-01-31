@@ -22,6 +22,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#foto {
+  background-image: url(afbeeldingen/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #index-content {
   background-color: #BFFBFF;
@@ -120,6 +125,33 @@ body {
   margin-left: 20%;
   border: none;
   background-color: #BFFBFF;
+}
+
+#foto-content{
+  background-color: #BFFBFF;
+  width: 76%;
+  margin-top: 15px;
+  height: auto;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 60px;
+}
+#foto-content h1 {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+#foto-content p {
+  margin-left:25%;
+}
+#foto-content img {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 20%;
+  border: 1px solid blue;
 }
 
 #top-button:hover {
